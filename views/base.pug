@@ -1,0 +1,23 @@
+doctype html
+html   
+  head 
+    title Lovum Dance Academy
+    block scripts 
+    block style 
+      
+  body 
+    nav#navbar.top
+        ul
+            div#logo
+                img(src="/static/logo.png") 
+                | HDA 
+            li #[a(href = "/") Home] 
+            li #[a(href = "/") About ]
+            li #[a(href = "/") Services]
+            li #[a(href = "/") Class Info]
+            li #[a(href = "/contact") Contact us]
+            
+    block content 
+    footer#footer 
+        | Copyright  2021 LovumDanceAcademy.com | All rights reserved 
+     
